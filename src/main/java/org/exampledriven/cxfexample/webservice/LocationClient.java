@@ -52,8 +52,8 @@ public class LocationClient implements LocationService {
 			JaxWsProxyFactoryBean factory = new JaxWsProxyFactoryBean();
 			factory.setServiceClass(LocationService.class);
 			factory.setAddress(applicationURI + "/cxf/soap/");
-			factory.setUsername("restuser");
-			factory.setPassword("restuser");
+			/*factory.setUsername("restuser");
+			factory.setPassword("restuser");*/
 			locationService = (LocationService) factory.create();
 		}
 		

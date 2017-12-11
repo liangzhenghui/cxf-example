@@ -69,6 +69,7 @@
 	<!-- SOAP SERVER -->
 
 	<jaxws:endpoint id="location" implementor="#locationService" address="/soap" />
+	<jaxws:endpoint id="demo" implementor="#demoSoapServiceImpl" address="/soapdemo" />
 
 	<!-- CXF Message logging -->
  
